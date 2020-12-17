@@ -1,5 +1,6 @@
 import { AJAX } from './helpers.js';
 import { RES_PER_PAGE, API_URL, KEY } from './config.js';
+import 'regenerator-runtime/runtime';
 
 export const state = {
   recipe: {},
